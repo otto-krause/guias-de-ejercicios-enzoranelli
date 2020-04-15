@@ -16,30 +16,14 @@ namespace E3
                 opcion= Int32.Parse(Console.ReadLine());
                 if(opcion==1)
                 {
-                    bool prim=false;
-                    prim=Program.Primo(num1);
-                    if (prim)
-                    {
-                        Console.WriteLine("El numero ingresado es primo");
-                    }
-                    else{
-                        Console.WriteLine("El numero no es primo");
-                    }
+                    
+                    Program.Primo(num1);
+                    
                 }
                 else{
                     if (opcion==2)
                     {
-                        bool pr=false;
-                        pr=Program.Par(num1);
-                        if(pr)
-                        {
-                            Console.WriteLine("El numero es par");
-
-                        }
-                        else{
-                            Console.WriteLine("El numero no es par");
-
-                        }
+                        Program.Par(num1);
                     }
                     else{
                         Console.WriteLine("El numero no coincide con ninguna opcion");
@@ -53,7 +37,7 @@ namespace E3
 
            
         }
-        static Boolean Primo (int num1)
+        static void Primo (int num1)
         {
              bool prim=true;
              for (int i=2; i < num1 && prim == true ; i++)
@@ -63,17 +47,24 @@ namespace E3
                      prim=false;
                  }
              }
-             return prim;
+             if(!prim)
+             {
+                 Console.WriteLine("El numero "+num1+" no es primo");
+             }
+             else
+             {
+                 Console.WriteLine("El numero "+num1+" es primo");
+             }
         }
-        static Boolean Par (int num1)
+        static void Par (int num1)
         {
 
           if(num1% 2 == 0)
           {
-              return true;
+             Console.WriteLine("El numero "+num1+" es par");
           } 
           else{
-              return false;
+              Console.WriteLine("El numero "+num1+" no es par");
           }
 
         }
