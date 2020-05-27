@@ -1,0 +1,13 @@
+C:\Users\G-Fast\Desktop\Programacion orientada a objeto\guias-de-ejercicios-enzoranelli\Guia 2\E7\bin\Debug\netcoreapp3.1\E7.exe
+C:\Users\G-Fast\Desktop\Programacion orientada a objeto\guias-de-ejercicios-enzoranelli\Guia 2\E7\bin\Debug\netcoreapp3.1\E7.deps.json
+C:\Users\G-Fast\Desktop\Programacion orientada a objeto\guias-de-ejercicios-enzoranelli\Guia 2\E7\bin\Debug\netcoreapp3.1\E7.runtimeconfig.json
+C:\Users\G-Fast\Desktop\Programacion orientada a objeto\guias-de-ejercicios-enzoranelli\Guia 2\E7\bin\Debug\netcoreapp3.1\E7.runtimeconfig.dev.json
+C:\Users\G-Fast\Desktop\Programacion orientada a objeto\guias-de-ejercicios-enzoranelli\Guia 2\E7\bin\Debug\netcoreapp3.1\E7.dll
+C:\Users\G-Fast\Desktop\Programacion orientada a objeto\guias-de-ejercicios-enzoranelli\Guia 2\E7\bin\Debug\netcoreapp3.1\E7.pdb
+C:\Users\G-Fast\Desktop\Programacion orientada a objeto\guias-de-ejercicios-enzoranelli\Guia 2\E7\obj\Debug\netcoreapp3.1\E7.csprojAssemblyReference.cache
+C:\Users\G-Fast\Desktop\Programacion orientada a objeto\guias-de-ejercicios-enzoranelli\Guia 2\E7\obj\Debug\netcoreapp3.1\E7.csproj.CoreCompileInputs.cache
+C:\Users\G-Fast\Desktop\Programacion orientada a objeto\guias-de-ejercicios-enzoranelli\Guia 2\E7\obj\Debug\netcoreapp3.1\E7.AssemblyInfoInputs.cache
+C:\Users\G-Fast\Desktop\Programacion orientada a objeto\guias-de-ejercicios-enzoranelli\Guia 2\E7\obj\Debug\netcoreapp3.1\E7.AssemblyInfo.cs
+C:\Users\G-Fast\Desktop\Programacion orientada a objeto\guias-de-ejercicios-enzoranelli\Guia 2\E7\obj\Debug\netcoreapp3.1\E7.dll
+C:\Users\G-Fast\Desktop\Programacion orientada a objeto\guias-de-ejercicios-enzoranelli\Guia 2\E7\obj\Debug\netcoreapp3.1\E7.pdb
+C:\Users\G-Fast\Desktop\Programacion orientada a objeto\guias-de-ejercicios-enzoranelli\Guia 2\E7\obj\Debug\netcoreapp3.1\E7.genruntimeconfig.cache
