@@ -1,7 +1,8 @@
 namespace E2
 {
-    public interface Contratista
+    public interface contratista
     {
-         
+         public void trabajar(int horas);
+         public int cobrar();
     }
 }

@@ -1,20 +1,21 @@
 namespace E2
 {
-    public class Plomero:contratista
-    {
+    public class pintores : contratista
+    {    
         int hora=0;
 
-        public Plomero(int hora)
+        public pintores(int hora)
         {
             this.hora = hora;
-        }      
+        }
+
         public void trabajar(int horas)
-        {
+        {  
             hora=horas;
         }
         public int cobrar()
         {
-            return 80*hora;
+            return (3*50)*hora;
         }
     }
 }
