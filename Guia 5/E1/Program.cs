@@ -29,7 +29,7 @@ namespace E1
                          Console.WriteLine("Personas mayores de edad");
                          persona.Where(persona => persona.Edad > 17)
                         .ToList()
-                        .ForEach(persona => Console.WriteLine(persona.Nombre+ " "+ persona.Apellido+" "+persona.Edad));
+                        .ForEach(persona => Console.WriteLine(persona.Nombre+ "  "+ persona.Apellido+" "+persona.Edad));
                         break;
 
                     case 2:
