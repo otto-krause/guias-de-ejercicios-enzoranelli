@@ -18,13 +18,43 @@ namespace E6
             {
                 return pelisXGenero;
             }
-            else{
-                return null;
-            }
-        }
-        //public List<Pelicula> peliculasPorNombre(string nombre)
-        //{
+            return null;
 
-        //}
+        }
+        public List<Pelicula> peliculasPorNombre(string nombre)
+        {
+            List<Pelicula>pelisXNombre = peliculas.Where(peli => peli.Nombre.Contains(nombre)).ToList();
+            if(pelisXNombre.Count()>0)
+            {
+                return pelisXNombre;
+            }
+            return null;
+        }
+        public List<Pelicula> peliculasPorAño(int año)
+        {
+            List<Pelicula> pelisXAño = peliculas.Where(peli => peli.Año == año).ToList();
+            if(pelisXAño.Count()>0)
+            {
+                return pelisXAño;
+            }
+             return null;
+        }
+        public List<Pelicula> peliculasPorDirector(string director)
+        {
+            List<Pelicula> pelisXDirector = peliculas.Where(peli => peli.Director.Contains(director)).ToList();
+            if(pelisXDirector.Count()>0)
+            {
+                return pelisXDirector;
+            }
+            return null;
+        }
+        public int cuantasPelisHay()
+        {
+            return peliculas.Count();
+        }
+        public int peliculasPorGeneroHay(string genero)
+        { 
+            return peliculasPorGenero(genero).Count();
+        }
     }
 }
